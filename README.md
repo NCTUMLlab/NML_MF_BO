@@ -8,5 +8,11 @@ outperforms existing single-fidelity optimization algorithms. Our algorithm expl
 
 
 ## Result
--
-<img src="Others/min_cost_1.pdf" width="100%">
+### Functions from a GP prior
+
+<img src="Others/min_step_1.PNG" width="100%">
+Average minimum observed function value, with 95% confidence intervals,
+as a function of search steps on functions sampled from the training GP distribution
+<img src="Others/min_cost_1.PNG" width="100%">
+Average minimum observed function value, with 95% condence intervals,
+as a cumulative cost on functions sampled from the training GP distribution
