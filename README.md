@@ -13,6 +13,33 @@ outperforms existing single-fidelity optimization algorithms. Our algorithm expl
 <img src="Others/min_step_1.PNG" width="100%">
 Average minimum observed function value, with 95% confidence intervals,
 as a function of search steps on functions sampled from the training GP distribution
+
 <img src="Others/min_cost_1.PNG" width="100%">
 Average minimum observed function value, with 95% condence intervals,
 as a cumulative cost on functions sampled from the training GP distribution
+
+<img src="Others/time.PNG" width="50%">
+Run-time (seconds) for 100 iterations excluding the black-box function evaluation time.
+
+<img src="Others/search_1.PNG" width="100%">
+<img src="Others/search_2.PNG" width="100%">
+How dfferent methods trade-off exploration and exploitation in a onedimensional
+example. Blue: Unknown function being optimized. Crosses: Function
+values at query points. Gray trajectory: Query points over 20 steps.
+
+### Global Optimization Benchmarks
+<img src="Others/min_step_2.PNG" width="100%">
+Loss on 2 benchmark functions (Gramacy and Lee, Branin) with 95%
+confidence intervals as a function of the number of steps
+
+<img src="Others/min_step_3.PNG" width="100%">
+Average minimum observed function value, with 95% confidence intervals,
+as a function of search steps on global optimization benchmarks
+
+<img src="Others/min_cost_3.PNG" width="100%">
+Average minimum observed function value, with 95% confidence intervals,
+as a cumulative cost on global optimization benchmarks
+
+<img src="Others/time_2.PNG" width="70%">
+Run-time (seconds) for 100 iterations excluding the black-box function
+evaluation time
