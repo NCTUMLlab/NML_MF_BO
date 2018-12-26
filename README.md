@@ -6,6 +6,24 @@ outperforms existing single-fidelity optimization algorithms. Our algorithm expl
 
 <img src="Others/NML-MF-BO.PNG" width="100%">
 
+## File
+### Generate_GP.ipynb
+generate GP function with different parameter
+
+### LSTM_BO.ipynb
+train lstm to perform BO with different loss
+
+### LSTM_MF_BO.ipynb
+train lstm to perform multifidelity BO
+
+### test_LSTM.ipynb
+test different LSTM model 
+
+### plot_LSTM.ipynb
+plot search trajectory with LSTM model
+
+### GP_BO.ipynb
+GP BO (GPflowOpt) for test function
 
 ## Result
 ### Functions from a GP prior
@@ -27,6 +45,8 @@ values at query points. Gray trajectory: Query points over 20 steps.
 <img src="Others/search_1.PNG" width="100%">
 <img src="Others/search_2.PNG" width="100%">
 
+Performance with number of training data
+<img src="Others/trainingdatanum.PNG" width="50%">
 
 ### Global Optimization Benchmarks
 Loss on 2 benchmark functions (Gramacy and Lee, Branin) with 95%
