@@ -45,8 +45,8 @@ values at query points. Gray trajectory: Query points over 20 steps.
 <img src="Others/search_1.PNG" width="100%">
 <img src="Others/search_2.PNG" width="100%">
 
-Performance with number of training data
-<img src="Others/trainingdatanum.PNG" width="50%">
+Performance with number of training data in 1D GP data
+<img src="Others/trainingdatanum.PNG" width="60%">
 
 ### Global Optimization Benchmarks
 Loss on 2 benchmark functions (Gramacy and Lee, Branin) with 95%
