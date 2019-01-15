@@ -65,3 +65,21 @@ Run-time (seconds) for 100 iterations excluding the black-box function
 evaluation time
 <img src="Others/time_2.PNG" width="70%">
 
+### Hyperparameter tuning
+Tune the hyperparameters of a RL-based (DQN) task oriented dialogue, Pydial
+<img src="Others/hyperparameter.PNG" width="40%">
+
+Optimized hyperparameter of Deep Q-network (DQN) algorithm in task oriented dialogue within 20 steps
+<img src="Others/DQN_optimized.PNG" width="50%">
+
+Performance of DQN which optimized in 20 steps for San Francisco Restaurants domain
+<img src="Others/pydial_steps.PNG" width="50%">
+
+Maximum success rate as a function of optimized steps for DQN algorithm on SFR domain
+<img src="Others/pydial_max_steps.PNG" width="50%">
+
+Trained over ten different random seeds and evaluated over 500 test dialogues after 4000 training dialogues
+<img src="Others/DQN_result.PNG" width="70%">
+
+Performance of original DQN and optimized DQN as a function of the number of dialogues for SFR domain
+<img src="Others/pydial.PNG" width="50%">
